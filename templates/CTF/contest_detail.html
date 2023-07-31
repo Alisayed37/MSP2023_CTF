@@ -26,9 +26,9 @@
           <div class="challenge-following">
             ● {{ challenge.category }} ● {{ challenge.points }} Points ● Solved by
             {% if challenge.score_set.count == 1 %}
-              {{ challenge.score_set.count }} person
+              {{ challenge.score_set.count }} Team
             {% else %}
-              {{ challenge.score_set.count }} people
+              {{ challenge.score_set.count }} Teams
             {% endif %}
           </div>
         </div>
