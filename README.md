@@ -62,19 +62,17 @@ Then change the values and enter the following statements.
     from customers.models import Client
 
     # create your first real tenant
-    tenant = Client(domain_url='localhost',
-                    schema_name='shortname',
-                    name='Name of Organization')
+    tenant = Client(domain_url='ServerIP',schema_name='msp',name='MSP')
 
     tenant.save() # migrate_schemas automatically called, your tenant is ready to be used!
 
 Note on using manage.py, you will have to prefix commands with 'tenant_command'.
 
-    python manage.py tenant_command createsuperuser
+    python2 manage.py tenant_command createsuperuser
 
 Then you will have to enter the schema you wish to use, which is the shortname/schema_name from above. After that, everything should continue to be normal. 
 Speaking of which, you should go ahead and create a superuser using the command above. Then visit your.domain.here.com/admin and get started creating your first contest.
 
-    python2 manage.py runserver 8000 # port 8000 as an example
+    python2 manage.py runserver 0.0.0.0:8000 # port 8000 as an example
 
 If you run into problems, please report them. This is a new project and things may be horrible wrong. Pull requests are always welcome as well.
