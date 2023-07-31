@@ -44,6 +44,15 @@
             {% else %}
                 <p>You have solved this challenge.</p>
             {% endif %}
+
+            {% if challenge_submitted %}
+        <p>{{ challenge_submission_result }}</p>
+        <script>
+            setTimeout(function() {
+                window.location.href = "{% url 'home' %}";
+            }, 1000); // Redirect after 5 seconds
+        </script>
+    {% endif %}
         </div>
     </div>
 

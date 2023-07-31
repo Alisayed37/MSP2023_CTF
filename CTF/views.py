@@ -93,7 +93,14 @@ def ChallengeView(request, slug):
         if form.is_valid() and not challenge.solved(request.user) and challenge.contest.active and challenge.active:
             score = Score(challenge=challenge, user=request.user, contest=challenge.contest)
             score.save()
-            return HttpResponseRedirect(reverse('challenge-view', args=(slug,)))
+            # Set the challenge_submitted flag and the challenge_submission_result message
+            challenge_submitted = True
+            challenge_submission_result = "Challenge submitted successfully!"
+            return render(request, 'CTF/challenge_detail.html',
+                          {'object': challenge, 'form': form, 'solved': True,
+                           'files': challenge.challengefile_set.all(),
+                           'challenge_submitted': challenge_submitted,
+                           'challenge_submission_result': challenge_submission_result})
     else:
         form = ChallengeScoreForm()
 
