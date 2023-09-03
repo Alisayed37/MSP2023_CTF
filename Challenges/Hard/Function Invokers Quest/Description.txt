@@ -1,0 +1,1 @@
+The journey concludes with the “Function Invoker’s Quest.” Your dynamic analysis skills are put to the ultimate test. Invoke functions dynamically to achieve specific objectives, uncover the final piece of the puzzle, and reveal the last hidden flag.

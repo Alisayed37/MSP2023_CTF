@@ -1,0 +1,1 @@
+You’ve been given the “CodeCracker.apk” app, which presents itself as a locked enigma. Your task is to reverse engineer the app to understand its inner workings and identify the method to unlock its secrets. Your ultimate goal is to find the hidden flag that has been concealed within the app.

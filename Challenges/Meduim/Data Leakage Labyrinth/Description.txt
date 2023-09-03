@@ -1,0 +1,2 @@
+You are provided with the “ConfidentialVault.apk” app, which claims to store confidential user information securely. However, rumor has it that the app contains a vulnerable content provider that leaks sensitive data without proper authentication.
+Your goal is to exploit this content provider vulnerability and retrieve confidential data without using any unauthorized permissions or bypassing any security mechanisms. Your success will be measured by your ability to extract sensitive data using the app’s own features.

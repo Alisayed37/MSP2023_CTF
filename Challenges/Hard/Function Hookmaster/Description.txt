@@ -1,0 +1,1 @@
+Dynamic analysis takes center stage in the “Function Hookmaster” challenge. As you explore the app’s runtime behavior, you encounter opportunities to hook functions dynamically. Intercept and manipulate function calls to unlock secrets and advance further.

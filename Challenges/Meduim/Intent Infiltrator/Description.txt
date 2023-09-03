@@ -1,0 +1,1 @@
+Now it’s time to play with intents in the “Intent Infiltrator” challenge. The app’s intent handling mechanism has a vulnerability. Exploit it to manipulate intents without extras and uncover hidden functionality. Tread carefully; unintended side effects might hinder your progress.

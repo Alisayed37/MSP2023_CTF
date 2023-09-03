@@ -1,0 +1,1 @@
+The journey begins with the “Activity Hunt” challenge. Upon opening the app, you are greeted with a simple welcome screen and a “Start” button. Clicking the button reveals the first activity. Your goal is to traverse through a series of activities by entering specific keywords to unlock the path to the hidden flag. Stay vigilant; not all paths are correct.

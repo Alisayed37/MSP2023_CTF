@@ -1,0 +1,1 @@
+The next challenge, “Encoded Secret,” dives into the app’s code. You encounter a function called “print_flag,” which seems innocent at first glance. However, the flag is cunningly encoded in base64 within the function’s code. Decode the flag to proceed, showcasing your static code analysis prowess.

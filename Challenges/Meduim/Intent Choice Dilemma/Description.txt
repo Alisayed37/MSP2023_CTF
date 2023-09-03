@@ -1,0 +1,1 @@
+You’ve been provided with the “User or Admin choose wisely (1).apk” app, which offers two paths: user and admin. Your objective is to explore the app and find a way to manipulate it using intents with extras to grant yourself admin privileges.

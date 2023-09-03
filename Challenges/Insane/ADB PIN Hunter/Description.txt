@@ -1,0 +1,1 @@
+You’ve been given the “Get_Za_Pin.apk” app, which seems to contain an unusual arrangement of PINs within its activities. Your objective is to use ADB commands to interact with the app and navigate through its activities to uncover the hidden PIN. This PIN will serve as the password to access a secure login page within the app.
